@@ -3,13 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Commerce Frontend</title>
+    <title>Luxe | Retro Cinematic Store</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+
     <header>
-        <h1>Welcome to Our Online Store</h1>
+        <nav class="navbar">
+            <div class="logo">LUXE.</div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search products...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <div class="nav-icons">
+                <div class="cart-container">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-badge">0</span> </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
     </header>
+
+    <section class="hero">
+        <div class="hero-content fade-in">
+            <h1>Timeless Elegance</h1>
+            <p>Curated vintage styles for the modern soul.</p>
+            <a href="#shop" class="btn-primary">Explore Collection</a>
+        </div>
+    </section>
+
     <script src="scripts/app.js"></script>
 </body>
 </html>
